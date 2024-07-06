@@ -18,7 +18,7 @@ function HomeFeed() {
   }, [searchTerm]);
 
   return (
-    <div className="homeFeed">
+    <div className="HomeFeed">
       <input
         className="searchBar"
         type="text"
@@ -26,6 +26,17 @@ function HomeFeed() {
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />
+      <div class="intro-container">
+        <p>
+          <strong>
+            <code className="title">CodeConnect</code>
+          </strong>{" "}
+          is your go-to platform for submitting <code>code_problems</code>,
+          finding <code className="element-style-type">{`<solutions />`}</code>,
+          and connecting with{" "}
+          <code style={{ color: "red" }}>fellow_developers()</code>.
+        </p>
+      </div>
       {feed && feed.length > 0 ? (
         feed.map((post) => (
           <Card

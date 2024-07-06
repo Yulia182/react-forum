@@ -31,7 +31,7 @@ const PostDetails = () => {
   };
 
   return (
-    <div className="postDetails-container">
+    <div className="PostDetails">
       <Link to="/">⬅</Link>
       <button className="editPostButton" onClick={() => setEditing(true)}>
         Edit Post

@@ -1,10 +1,13 @@
 import { Link } from "react-router-dom";
+import "./Header.css";
 
 function Header() {
   return (
-    <nav className="nav">
-      <div className="websiteTitle">
-        <Link to="/">GlamGlow Insights</Link>
+    <nav className="Header">
+      <div className="title">
+        <Link to="/">
+          <h1>CodeConnect</h1>
+        </Link>
       </div>
       <ul>
         <li>

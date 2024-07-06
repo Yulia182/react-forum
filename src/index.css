@@ -1,67 +1,23 @@
-/* :root {
-  font-family: "Poppins", sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+/* resets */
+body,
+h1,
+ul,
+a,
+p {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
+/* 
+Primary Color: Deep Purple (#6F42C1) - for header and primary elements.
+Secondary Color: Light Gray (#E9ECEF) - for background and cards.
+Accent Color: Lime Green (#28A745) - for buttons and interactive elements.
+Text Color: Dark Gray (#212529) - for readability
+*/
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  font-family: "Source Code Pro", monospace;
+  color: #212529;
 }
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-p {
-  line-height: 1.8;
-}
-
-button {
-  border-radius: 10px;
-  padding: 0.4em 1.5em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-}
-button:hover {
-  background-color: #533483;
-  color: white;
-  transition: color 0.3s ease;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-} */

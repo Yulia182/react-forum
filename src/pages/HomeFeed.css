@@ -1,22 +1,42 @@
-/* .homeFeed {
+.HomeFeed {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  min-width: 800px;
-  width: 100%;
+  align-items: center;
   min-height: 100vh;
 }
 
-.searchBar {
+.HomeFeed .searchBar {
   display: flex;
   width: 30%;
   height: 10%;
   color: black;
-  border-radius: 20px;
+  border-radius: 10px;
   transition: transform 0.3s ease-in-out;
-  margin: 0 auto;
+  padding: 5px 20px;
 }
 
 .searchBar:hover {
   transform: scale(1.05);
-} */
+}
+.HomeFeed .intro-container {
+  margin: 20px;
+  text-align: center;
+}
+.HomeFeed .intro-container code {
+  color: #ffc107;
+  font-style: italic;
+  font-size: 15px;
+}
+
+.HomeFeed .intro-container .title {
+  color: #6f42c1;
+  font-size: 20px;
+  font-style: normal;
+  text-decoration: underline;
+}
+
+.HomeFeed .intro-container .element-style-type {
+  color: #28a745;
+  font-style: normal;
+  font-weight: bold;
+}

@@ -1,10 +1,8 @@
-/* .Card {
-  background-color: #ffffff;
+.Card {
+  background-color: #e9ecef;
   border-radius: 10px;
   padding: 10px;
-  margin: 20px;
-  min-width: 100%;
-  padding: 10px 30px;
+  width: 60%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
 }
@@ -27,4 +25,4 @@
   color: #533483;
   font-style: italic;
   font-size: smaller;
-} */
+}
