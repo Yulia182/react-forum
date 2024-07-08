@@ -2,9 +2,11 @@
   background-color: #e9ecef;
   border-radius: 10px;
   padding: 10px;
-  width: 60%;
+  width: 70%;
+  border: 1px solid #54348323;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
+  margin: 20px 0;
 }
 
 .Card:hover {
@@ -12,17 +14,13 @@
 }
 
 .Card a {
-  text-decoration: none;
-  color: #333;
+  color: #533483;
   font-weight: bold;
-}
-
-.Card a:hover {
-  color: #f07dea;
 }
 
 .Card p {
   color: #533483;
   font-style: italic;
   font-size: smaller;
+  font-weight: normal;
 }

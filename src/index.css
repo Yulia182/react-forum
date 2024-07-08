@@ -1,6 +1,7 @@
 /* resets */
 body,
 h1,
+h2,
 ul,
 a,
 p {
@@ -20,4 +21,30 @@ Text Color: Dark Gray (#212529) - for readability
 body {
   font-family: "Source Code Pro", monospace;
   color: #212529;
+  background-color: rgb(253, 255, 255);
+}
+
+button,
+input[type="submit"] {
+  background-color: #28a745;
+  border: 1px solid rgba(0, 0, 0, 0.178);
+  border-radius: 5px;
+  padding: 5px 20px;
+  color: #212529;
+}
+
+button:hover {
+  background-color: #6f42c1;
+  color: white;
+  transition: color 0.5s ease;
+}
+
+input {
+  font-family: "Source Code Pro", monospace;
+  color: #212529;
+}
+
+input,
+textarea:focus {
+  outline: none;
 }

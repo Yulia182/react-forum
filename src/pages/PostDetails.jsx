@@ -32,11 +32,12 @@ const PostDetails = () => {
 
   return (
     <div className="PostDetails">
-      <Link to="/">⬅</Link>
-      <button className="editPostButton" onClick={() => setEditing(true)}>
-        Edit Post
-      </button>
-
+      <div className="postDetailsNav">
+        <Link to="/" className="previousPage">
+          ⬅
+        </Link>
+        <button onClick={() => setEditing(true)}>Edit Post</button>
+      </div>
       {post ? (
         <div>
           <p className="postTime">{calculateTimeDifference(post.created_at)}</p>

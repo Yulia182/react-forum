@@ -1,19 +1,21 @@
-/* form {
-  background-color: white;
-  padding: 20px;
-  border-radius: 8px;
+.CreatePostFrom {
+  background-color: #e9ecef;
+  border-radius: 10px;
+  padding: 10px 30px;
+  border: 1px solid #54348323;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 400px;
+  width: 70%;
+  margin: 0 auto;
 }
 
-label {
+.CreatePostFrom label {
   display: block;
   margin-bottom: 8px;
   font-weight: bold;
   color: #333;
 }
 
-input,
+.CreatePostFrom input,
 textarea {
   width: 100%;
   padding: 8px;
@@ -23,25 +25,15 @@ textarea {
   box-sizing: border-box;
 }
 
-textarea {
+.CreatePostFrom textarea {
   height: 150px;
 }
 
-input[type="url"] {
+.CreatePostFrom input[type="url"] {
   font-style: italic;
 }
 
-input[type="submit"] {
-  background-color: #9fc9f3;
-  color: #16213e;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background 0.3s ease;
+.CreatePostFrom #uploadImg {
+  width: 150px;
+  margin-bottom: 16px;
 }
-
-input[type="submit"]:hover {
-  background-color: #533483;
-  color: white;
-} */

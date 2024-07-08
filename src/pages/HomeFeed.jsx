@@ -19,14 +19,7 @@ function HomeFeed() {
 
   return (
     <div className="HomeFeed">
-      <input
-        className="searchBar"
-        type="text"
-        placeholder="Search by title"
-        value={searchTerm}
-        onChange={(e) => setSearchTerm(e.target.value)}
-      />
-      <div class="intro-container">
+      <div className="introContainer">
         <p>
           <strong>
             <code className="title">CodeConnect</code>
@@ -36,6 +29,16 @@ function HomeFeed() {
           and connecting with{" "}
           <code style={{ color: "red" }}>fellow_developers()</code>.
         </p>
+      </div>
+      <div className="searchDiv">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input
+          className="searchBar"
+          type="text"
+          placeholder="Search by title"
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+        />
       </div>
       {feed && feed.length > 0 ? (
         feed.map((post) => (

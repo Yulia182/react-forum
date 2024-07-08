@@ -7,35 +7,49 @@
 
 .HomeFeed .searchBar {
   display: flex;
-  width: 30%;
   height: 10%;
   color: black;
   border-radius: 10px;
+  border: 1px solid #212529;
   transition: transform 0.3s ease-in-out;
   padding: 5px 20px;
+  text-align: center;
+}
+
+.HomeFeed .searchDiv {
+  position: relative;
+}
+
+.HomeFeed .fa-solid {
+  position: absolute;
+  top: 20%;
+  left: 4%;
+  font-size: large;
 }
 
 .searchBar:hover {
   transform: scale(1.05);
 }
-.HomeFeed .intro-container {
+
+.HomeFeed .introContainer {
   margin: 20px;
   text-align: center;
 }
-.HomeFeed .intro-container code {
+
+.HomeFeed .introContainer code {
   color: #ffc107;
   font-style: italic;
   font-size: 15px;
 }
 
-.HomeFeed .intro-container .title {
+.HomeFeed .introContainer .title {
   color: #6f42c1;
   font-size: 20px;
   font-style: normal;
   text-decoration: underline;
 }
 
-.HomeFeed .intro-container .element-style-type {
+.HomeFeed .introContainer .element-style-type {
   color: #28a745;
   font-style: normal;
   font-weight: bold;
