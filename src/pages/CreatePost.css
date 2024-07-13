@@ -33,7 +33,7 @@ textarea {
   font-style: italic;
 }
 
-.CreatePostFrom #uploadImg {
+.CreatePostFrom .uploadImg {
   width: 150px;
   margin-bottom: 16px;
 }
