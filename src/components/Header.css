@@ -22,3 +22,25 @@
 a {
   color: white;
 }
+
+.signOut,
+.signIn {
+  color: black;
+  background-color: aliceblue;
+  width: 100px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+.signIn a {
+  color: black;
+}
+
+@media screen and (min-width: 768px) {
+  .signOut:hover,
+  .signIn:hover {
+    background-color: hsl(153 60% 53%);
+    transition: 0.4s;
+    color: black;
+  }
+}

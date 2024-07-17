@@ -61,7 +61,7 @@ const EditPost = ({ id, onClose, onUpdate }) => {
   };
 
   return (
-    <div className="updatePost-container">
+    <div className="EditPost">
       <h2>Edit Post</h2>
       <label>Title:</label>
       <input
@@ -70,7 +70,11 @@ const EditPost = ({ id, onClose, onUpdate }) => {
         onChange={(e) => setTitle(e.target.value)}
       />
       <label>Content:</label>
-      <textarea value={content} onChange={(e) => setContent(e.target.value)} />
+      <textarea
+        value={content}
+        onChange={(e) => setContent(e.target.value)}
+        maxLength="2000"
+      />
       <label>Image URL:</label>
       <input
         type="text"

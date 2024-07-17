@@ -1,0 +1,14 @@
+.Login {
+  display: flex;
+  justify-content: center;
+}
+
+.Login .t-PJLV {
+  width: 70%;
+}
+
+@media screen and (min-width: 768px) {
+  .Login .t-PJLV {
+    width: 400px;
+  }
+}

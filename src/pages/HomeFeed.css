@@ -5,6 +5,10 @@
   min-height: 100vh;
 }
 
+.loadingDiv {
+  margin: 20px;
+}
+
 .HomeFeed .searchBar {
   display: flex;
   height: 10%;
@@ -27,10 +31,6 @@
   font-size: large;
 }
 
-.searchBar:hover {
-  transform: scale(1.05);
-}
-
 .HomeFeed .introContainer {
   margin: 20px;
   text-align: center;
@@ -50,7 +50,13 @@
 }
 
 .HomeFeed .introContainer .element-style-type {
-  color: #28a745;
+  color: hsl(153 60% 53%);
   font-style: normal;
   font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .searchBar:hover {
+    transform: scale(1.05);
+  }
 }

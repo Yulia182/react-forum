@@ -1,0 +1,24 @@
+.EditPost {
+  margin-top: 50px;
+}
+
+.EditPost label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+.EditPost input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.updatePost-button {
+  margin-right: 20px;
+}

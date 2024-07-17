@@ -25,10 +25,6 @@ textarea {
   box-sizing: border-box;
 }
 
-.CreatePostFrom textarea {
-  height: 150px;
-}
-
 .CreatePostFrom input[type="url"] {
   font-style: italic;
 }
@@ -36,4 +32,8 @@ textarea {
 .CreatePostFrom .uploadImg {
   width: 150px;
   margin-bottom: 16px;
+}
+
+.CreatePostFrom button {
+  margin-right: 20px;
 }

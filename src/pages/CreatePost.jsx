@@ -89,8 +89,9 @@ const CreatePostFrom = () => {
         id="content"
         value={content}
         onChange={(e) => setContent(e.target.value)}
+        maxLength="2000"
       />
-      <label>Upload image from browser OR your local storage:</label>
+      <label>Upload an image from browser OR your local storage:</label>
       <input
         type="url"
         name="image"
@@ -113,7 +114,7 @@ const CreatePostFrom = () => {
       </button>
       {imgLink && <img src={imgLink} className="uploadImg"></img>}
       {image && <img src={image} className="uploadImg"></img>}
-      <input type="submit" value="Submit" />
+      <button>Submit</button>
     </form>
   );
 };
